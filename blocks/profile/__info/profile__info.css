@@ -1,0 +1,7 @@
+.profile__info {
+  display: grid;
+  grid-template-columns: 1fr 24px;
+  column-gap: 18px;
+  row-gap: 16px;
+  max-height: 73px;
+}

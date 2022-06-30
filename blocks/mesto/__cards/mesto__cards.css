@@ -1,0 +1,7 @@
+.mesto__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(auto-fit, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 11px;
+}

@@ -1,0 +1,12 @@
+.profile__add-button {
+  margin: 0 0 0 auto;
+  border: 2px #fff solid;
+  outline: 0;
+  background-color: transparent;
+  padding: 0;
+  height: 50px;
+  width: 150px;
+  background-image: url(../../../images/Vector-add.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}

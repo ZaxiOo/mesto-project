@@ -1,0 +1,12 @@
+.mesto__like {
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  padding: 0;
+  height: 19px;
+  width: 22px;
+  background-image: url(../../../images/Group.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0 20px;
+}
