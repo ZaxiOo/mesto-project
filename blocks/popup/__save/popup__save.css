@@ -1,0 +1,22 @@
+.popup__save {
+  margin: 0;
+  border: 0;
+  outline: 0;
+  background-color: #000;
+  margin: 0 auto 37px;
+  width: 358px;
+  height: 50px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  border-radius: 2px;
+  transition: opacity 0.5s linear
+}
+
+.popup__save {
+  cursor: pointer;
+  opacity: .8;
+}

@@ -10,4 +10,10 @@
   background-repeat: no-repeat;
   background-position: center;
   margin-top: 15px;
+  transition: opacity 0.5s linear;
+}
+
+.profile__edit-button:hover {
+  cursor: pointer;
+  opacity: .6;
 }

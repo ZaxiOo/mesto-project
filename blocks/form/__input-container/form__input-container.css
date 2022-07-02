@@ -1,0 +1,12 @@
+.form__input-container {
+  outline: 0;
+  border: 0;
+  padding: 42px 36px 25px 36px;
+  margin: 0;
+  width: 430px;
+}
+
+.form__input-container:last-of-type {
+  padding-top: 0;
+  padding-bottom: 48px;
+}

@@ -7,3 +7,11 @@
   width: calc(100% - 400px);
   min-height: 74px;
 }
+
+@media screen and (max-width: 1027px) {
+  .header{
+    width: 100%;
+    margin: 0;
+    padding: 28px 0 0 27px;
+  }
+}

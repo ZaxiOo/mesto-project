@@ -1,0 +1,15 @@
+.popup__button-cancel {
+  position: absolute;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  padding: 0;
+  height: 32px;
+  width: 32px;
+  background-image: url(../../../images/Close\ Icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  top: -35px;
+  right: -35px;
+}

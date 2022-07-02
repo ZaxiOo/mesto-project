@@ -10,3 +10,13 @@
   background-repeat: no-repeat;
   padding: 0 20px;
 }
+
+.mesto__like:hover {
+  cursor: pointer;
+  opacity: .5;
+}
+
+.mesto__like:active {
+  opacity: 1;
+  background-image: url(../../../images/Union.svg);
+}
