@@ -17,3 +17,12 @@
   cursor: pointer;
   opacity: .6;
 }
+
+@media screen and (max-width: 1023px) {
+  .profile__edit-button {
+    height: 18px;
+    width: 18px;
+    margin: 10px 8px 0;
+    background-image: url(../../../images/button_edit_7.5_7.5.svg);
+  }
+}

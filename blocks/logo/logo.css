@@ -1,3 +1,10 @@
 .logo {
   max-width: 142px;
 }
+
+@media screen and (max-width: 1023px) {
+  .logo{
+  padding-left: 27px;
+  max-width: 103px;
+}
+}
