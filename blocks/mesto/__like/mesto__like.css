@@ -5,7 +5,7 @@
   padding: 0;
   height: 19px;
   width: 22px;
-  background-image: url(../../../images/Group.svg);
+  background-image: url(../../../images/like.svg);
   background-size: contain;
   background-repeat: no-repeat;
   padding: 0 20px;
@@ -18,5 +18,5 @@
 
 .mesto__like:active {
   opacity: 1;
-  background-image: url(../../../images/Union.svg);
+  background-image: url(../../../images/small-like.svg);
 }
