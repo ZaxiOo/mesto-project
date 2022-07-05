@@ -7,11 +7,5 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  width: calc(100% - 36px*2)
-}
-
-@media screen and (max-width: 550px) {
-  .form__item-input {
-    width: calc(100% - 22px * 2)
-  }
+  width: 100%
 }

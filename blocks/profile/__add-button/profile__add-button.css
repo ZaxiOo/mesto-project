@@ -10,12 +10,19 @@
   background-repeat: no-repeat;
   background-position: center;
   transition: opacity 0.5s linear;
+  box-sizing: border-box;
 }
 
 .profile__add-button:hover {
   cursor: pointer;
   opacity: .6;
 }
+
+@media screen and (max-width: 1110px) {
+  .profile__add-button {
+    margin-left: 20px;
+  }
+  }
 
 @media screen and (max-width: 1023px) {
   .profile__add-button {
