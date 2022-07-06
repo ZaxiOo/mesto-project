@@ -12,7 +12,8 @@
   background-position: center;
   top: -45px;
   right: -40px;
-  transition: opacity 0.5s linear
+  transition: opacity 0.5s linear;
+  background-size: contain;
 }
 
 .popup__button-cancel:hover {

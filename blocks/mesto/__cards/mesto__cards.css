@@ -1,8 +1,11 @@
 .mesto__cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, 282px);
-  grid-template-rows: repeat(auto-fit, 1fr);
+  grid-template-rows: repeat(auto-fit, 361px);
   grid-column-gap: 16px;
-  grid-row-gap: 11px;
+  grid-row-gap: 20px;
   justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }

@@ -12,78 +12,77 @@
 <body class="root">
   <div class="page">
     <header class="header">
-      <div>
-        <img class="logo" src="./images/logo.svg" alt="Лого">
-      </div>
+      <img class="logo" src="./images/logo.svg" alt="Лого">
     </header>
-    <section class="profile">
-      <div class="profile__user">
+    <main class="content">
+      <section class="profile">
         <img class="profile__avatar" src="./images/profile.jpg" alt="Аватарка">
         <div class="profile__info">
           <h1 class="profile__title">Жак-Ив Кусто</h1>
-          <button class="profile__edit-button" aria-label="Измнить описание"></button>
+          <button class="profile__edit-button" aria-label="Измнить описание" type="button"></button>
           <p class="profile__subtitle">Исследователь океана</p>
         </div>
-        <button class="profile__add-button" aria-label="Добавить новую карточку"></button>
-      </div>
-    </section>
-    <section class="mesto">
-      <div class="mesto__cards">
-        <div class="mesto__card">
-          <img class="mesto__image" src="./images/Vano.jpg" alt="ван пис">
-          <div class="mesto__descrtiption">
-            <h2 class="mesto__title">Страна Вано</h2>
-            <button class="mesto__like" aria-label="Лайк"></button>
-          </div>
-        </div>
-        <div class="mesto__card">
-          <img class="mesto__image" src="./images/spider-man.jpeg" alt="Нью-Йорк">
-          <div class="mesto__descrtiption">
-            <h2 class="mesto__title">Нью-Йорк</h2>
-            <button class="mesto__like" aria-label="Лайк"></button>
-          </div>
-        </div>
-        <div class="mesto__card">
-          <img class="mesto__image" src="./images/naruto.jpg" alt="Деревня скрытого листа">
-          <div class="mesto__descrtiption">
-            <h2 class="mesto__title">Деревня скрытого листа</h2>
-            <button class="mesto__like" aria-label="Лайк"></button>
-          </div>
-        </div>
-        <div class="mesto__card">
-          <img class="mesto__image" src="./images/italy.jpg" alt="Италия">
-          <div class="mesto__descrtiption">
-            <h2 class="mesto__title">Италия</h2>
-            <button class="mesto__like" aria-label="Лайк"></button>
-          </div>
-        </div>
-        <div class="mesto__card">
-          <img class="mesto__image" src="./images/Akihabara.jpg" alt="Акихабара">
-          <div class="mesto__descrtiption">
-            <h2 class="mesto__title">Акихабара</h2>
-            <button class="mesto__like" aria-label="Лайк"></button>
-          </div>
-        </div>
-        <div class="mesto__card">
-          <img class="mesto__image" src="./images/roshar.jpeg" alt="Рошар">
-          <div class="mesto__descrtiption">
-            <h2 class="mesto__title">Рошар</h2>
-            <button class="mesto__like" aria-label="Лайк"></button>
-          </div>
-        </div>
-      </div>
-    </section>
+        <button class="profile__add-button" aria-label="Добавить новую карточку" type="button"></button>
+      </section>
+      <section class="mesto">
+        <ul class="mesto__cards">
+          <li class="mesto__card">
+            <img class="mesto__image" src="./images/Vano.jpg" alt="ван пис">
+            <div class="mesto__descrtiption">
+              <h2 class="mesto__title">Страна Вано</h2>
+              <button class="mesto__like" aria-label="Лайк" type="button"></button>
+            </div>
+          </li>
+          <li class="mesto__card">
+            <img class="mesto__image" src="./images/spider-man.jpeg" alt="Нью-Йорк">
+            <div class="mesto__descrtiption">
+              <h2 class="mesto__title">Нью-Йорк</h2>
+              <button class="mesto__like" aria-label="Лайк" type="button"></button>
+            </div>
+          </li>
+          <li class="mesto__card">
+            <img class="mesto__image" src="./images/naruto.jpg" alt="Деревня скрытого листа">
+            <div class="mesto__descrtiption">
+              <h2 class="mesto__title">Деревня скрытого листа</h2>
+              <button class="mesto__like" aria-label="Лайк" type="button"></button>
+            </div>
+          </li>
+          <li class="mesto__card">
+            <img class="mesto__image" src="./images/italy.jpg" alt="Италия">
+            <div class="mesto__descrtiption">
+              <h2 class="mesto__title">Италия</h2>
+              <button class="mesto__like" aria-label="Лайк" type="button"></button>
+            </div>
+          </li>
+          <li class="mesto__card">
+            <img class="mesto__image" src="./images/Akihabara.jpg" alt="Акихабара">
+            <div class="mesto__descrtiption">
+              <h2 class="mesto__title">Акихабара</h2>
+              <button class="mesto__like" aria-label="Лайк" type="button"></button>
+            </div>
+          </li>
+          <li class="mesto__card">
+            <img class="mesto__image" src="./images/roshar.jpeg" alt="Рошар">
+            <div class="mesto__descrtiption">
+              <h2 class="mesto__title">Рошар</h2>
+              <button class="mesto__like" aria-label="Лайк" type="button"></button>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
     <footer class="footer">
       <p class="footer__copyright">&#169;2022. Mesto Title</p>
     </footer>
-    <div class="popup popup_opened">
+    <div class="popup">
       <div class="popup__container">
-        <button class="popup__button-cancel" aria-label="Закрыть форму"></button>
+        <button class="popup__button-cancel" aria-label="Закрыть форму" type="button"></button>
         <form class="form">
           <h2 class="form__title">Редактировать профиль</h2>
           <fieldset class="form__input-container">
             <label class="form__item-label" for="mesto-name"></label>
-            <input class="form__item-input" type="text" placeholder="Введите имя" id="mesto-name" name="mesto-name" required>
+            <input class="form__item-input" type="text" placeholder="Введите имя" id="mesto-name" name="mesto-name"
+              required>
           </fieldset>
           <fieldset class="form__input-container">
             <label class="form__item-label" for="mesto-status"></label>

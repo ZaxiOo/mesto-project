@@ -1,6 +1,4 @@
 .mesto__card {
   display: flex;
   flex-direction: column;
-  height: 370px;
-  width: 282px;
 }
